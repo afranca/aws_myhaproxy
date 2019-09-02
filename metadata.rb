@@ -4,8 +4,10 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures myhaproxy'
 long_description 'Installs/Configures myhaproxy'
-version '0.1.0'
+version '0.1.1'
 chef_version '>= 14.0'
+
+depends 'haproxy', '~>6.2.5'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
